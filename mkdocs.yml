@@ -1,0 +1,30 @@
+site_name: Jacob Lang Knowledge Base
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Landing Page:
+      - Overview: Landing Page/index.md
+      - Info: Landing Page/info.md
+  - Mechanical:
+      - Overview: Mechanical/index.md
+      
